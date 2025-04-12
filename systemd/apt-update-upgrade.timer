@@ -1,0 +1,11 @@
+[Unit]
+Description=Timer for apt update and upgrade
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1d
+Unit=apt-update-upgrade.service
+
+[Install]
+WantedBy=timers.target
+
