@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 # Automated System Updates & Upgrades on Linux
 
 This guide provides multiple methods to automate system updates and upgrades on a Linux-based system. The methods discussed include using `cron`, `anacron`, and `systemd` timers to ensure that your system is always up-to-date, even if the computer is off when the update is scheduled.
@@ -164,3 +164,4 @@ sudo systemctl status apt-update-upgrade.timer
 =======
 # SBOJNORC-
 Task automation in Linux
+>>>>>>> c2735457b81f7249dd0cd8a6c2748cc69167a496
